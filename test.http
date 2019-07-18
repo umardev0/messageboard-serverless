@@ -1,0 +1,10 @@
+POST https://5zt1lmlchb.execute-api.eu-central-1.amazonaws.com/dev/v1/message
+
+{
+  "sender":"Umar",
+  "title":"test",
+  "content":"This is serverless test"
+}
+
+###
+GET https://5zt1lmlchb.execute-api.eu-central-1.amazonaws.com/dev/v1/message
